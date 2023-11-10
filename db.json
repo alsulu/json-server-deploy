@@ -1,40 +1,68 @@
 {
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "1st post",
-      "datetime": "July 16, 2021 11:47:39 AM",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "email": "test@test.com",
+      "password": "1234",
+      "name": "Alice"
     },
     {
       "id": 2,
-      "title": "Second post",
-      "datetime": "July 16, 2021 11:47:48 AM",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. two"
+      "email": "test2@test.com",
+      "password": "12345",
+      "name": "Alexandra"
+    }
+  ],
+  "cart": [
+    {
+      "bookId": "9781912047451",
+      "count": 2,
+      "id": 28
     },
     {
-      "id": 3,
-      "title": "Number Three",
-      "datetime": "July 16, 2021 11:48:01 AM",
-      "body": "Third post... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "bookId": "9780134694726",
+      "count": 1,
+      "id": 29
     },
     {
-      "id": 6,
-      "title": "How to become rich",
-      "datetime": "April 16, 2022 2:56:06 AM",
-      "body": "Stop dreaming - this is the truth you have to believe"
+      "bookId": "9781098104030",
+      "count": 1,
+      "id": 30
     },
     {
-      "id": 8,
-      "title": "how to get visa to Afghanistan",
-      "datetime": "April 16, 2022 2:58:59 AM",
-      "body": "lorem ipsum dolor sit amet"
+      "bookId": "9781098113162",
+      "count": 1,
+      "id": 31
     },
     {
-      "id": 9,
-      "title": "Hello!",
-      "datetime": "April 16, 2022 3:00:38 AM",
-      "body": "Hello World!"
+      "bookId": "9781494366186",
+      "count": 1,
+      "id": 32
+    },
+    {
+      "bookId": "9781803235257",
+      "count": 4,
+      "id": 34
+    },
+    {
+      "bookId": "9783319639123",
+      "count": 3,
+      "id": 35
+    },
+    {
+      "bookId": "9781098139872",
+      "count": 2,
+      "id": 36
+    }
+  ],
+  "wishlist": [
+    {
+      "bookId": "9781098103828",
+      "id": 1
+    },
+    {
+      "bookId": "9781098111878",
+      "id": 2
     }
   ]
 }
